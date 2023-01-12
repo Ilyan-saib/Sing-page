@@ -12,7 +12,7 @@ left.addEventListener('click', ()=>{
     right.style.backgroundColor = 'black'
     right.style.borderColor = 'black'
   counteur--
-  image.src = `/assets/image-slide-${counteur}.jpg`
+  image.src = `assets/image-slide-${counteur}.jpg`
   }
 });
 
@@ -25,7 +25,7 @@ right.addEventListener('click', ()=>{
         left.style.backgroundColor = 'black'
         left.style.borderColor = 'black'
     counteur++
-    image.src = `/assets/image-slide-${counteur}.jpg`
+    image.src = `assets/image-slide-${counteur}.jpg`
 
     }
  
