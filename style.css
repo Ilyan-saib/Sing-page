@@ -63,10 +63,11 @@ body{
 
 
 .main_title{
-    padding-left: 40%;
+    padding-left: 30%;
+
 
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size:28px;    
+    font-size:27px;    
 }
 .title{
  font-family: 'Plus Jakarta Sans', sans-serif;
@@ -162,7 +163,7 @@ margin-left: 5%;
 
 }
 
-#apps{
+#apps{  
     margin-left: 5%;
     margin-top: 5%;
     width: 159px;
@@ -324,10 +325,10 @@ height: 352px;
 
 }
 #title_txt{
-margin-left: 45px;
+
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-size: 28px;
-        width: 80vw;
+        
     color: white;
 
 
@@ -347,18 +348,14 @@ margin-right: 10%;
     font-family: 'Plus Jakarta Sans', sans-serif;
     width: 180px;
     height: 50px;
-    margin-right:30%;
-    margin-left:auto;
-    margin-top: 10px; 
+    margin-left: 28vw; 
+    margin-top: 20px;
     border-radius: 50px;
     border-color: black;
     background-color: #eb7565;
     color: rgb(255, 255, 255);
 }
-#final_red_bttn{
-    margin-left: 25%   ;
-    
-}
+
 footer{
 
     margin-top: 20%;
@@ -371,7 +368,11 @@ footer{
 
 @media screen and (min-width: 767px) {
 
-
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .container{
     width: 343px;
@@ -379,27 +380,100 @@ footer{
 
     #graphic{
          position: relative;
-         right: 200px;
-        margin-left: 20px;
+         right: 180px;
+        
       
     }
 .uxui_container{
+    display: flex;
+    justify-content:space-around;
     position: relative;
-    bottom: 379px;
+    left: 190px;
+    bottom: 381px;
     height: auto;
-    width: auto;
-    margin-left: auto;
-    margin-right: 20px;
+    width: 343px;
+   
     
 }
 
 #illustrations{
     position: relative;
     left: 190px;
-    bottom: 350px;
+    bottom: 374px;
+}
+
+#photography{
+    height: 182px;
+position: relative;
+
+right: 180px;
+bottom: 370px;
+
+}
+
+#motion{
+    height: 182px;
+    position: relative;
+    bottom: 569px;
+    left:  190px;    
+}
+
+#amy{
+    width: 364;
+    height: 364;
+    position: relative;
+    bottom: 600px;
+    right: 270px;
+}
+.amy_title{
+    font-size: 32px;
+    width: 280px;
+    position: relative;
+    bottom: 920px;
+    left: 190px;
+}
+#sub_amy{
+    width: 300px;
+    position: relative;
+    bottom: 950px;
+    left: 190px;
+    line-height: 25px;
+}
+#amy_consult{
+  width: 228px;
+    position: relative;
+    bottom: 950px;
+    left: 160px;
+}
+
+#my_work{
+
+    position: relative;
+    bottom: 900px;
+}
+
+#image{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom:900px;
+}
+
+#lr{
+    position: relative;
+    bottom: 900px;
+}
+
+#book{
+    
+   
+    position: relative;
+    bottom: 850px;
+    width: 690px;
+    height: 352px;
 }
 
 
+
+
 }
-
-
