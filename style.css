@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100vw;
-   
+   overflow-x: hidden;
     margin: 0;
     padding: 0;
     
@@ -328,7 +328,7 @@ height: 352px;
 
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-size: 28px;
-        
+        text-align: center;
     color: white;
 
 
@@ -348,7 +348,7 @@ margin-right: 10%;
     font-family: 'Plus Jakarta Sans', sans-serif;
     width: 180px;
     height: 50px;
-    margin-left: 28vw; 
+    transform: translate(50%);
     margin-top: 20px;
     border-radius: 50px;
     border-color: black;
@@ -366,12 +366,22 @@ footer{
     justify-content: space-between;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.main_title{
+    position: relative;
+    top: 60px;
+}
+.sub{
+    position: relative;
+    top: 70px;
 }
 
 .container{
@@ -381,6 +391,7 @@ body{
     #graphic{
          position: relative;
          right: 180px;
+         top: 130px;
         
       
     }
@@ -389,7 +400,7 @@ body{
     justify-content:space-around;
     position: relative;
     left: 190px;
-    bottom: 381px;
+    bottom: 251px;
     height: auto;
     width: 343px;
    
@@ -399,22 +410,23 @@ body{
 #illustrations{
     position: relative;
     left: 190px;
-    bottom: 374px;
+    bottom: 244px;
 }
 
 #photography{
     height: 182px;
 position: relative;
 
+
 right: 180px;
-bottom: 370px;
+bottom: 240px;
 
 }
 
 #motion{
     height: 182px;
     position: relative;
-    bottom: 569px;
+    bottom: 439px;
     left:  190px;    
 }
 
@@ -422,58 +434,93 @@ bottom: 370px;
     width: 364;
     height: 364;
     position: relative;
-    bottom: 600px;
+    bottom: 300px;
     right: 270px;
 }
 .amy_title{
     font-size: 32px;
     width: 280px;
     position: relative;
-    bottom: 920px;
-    left: 190px;
+    bottom: 620px;
+    left: 150px;
 }
 #sub_amy{
     width: 300px;
     position: relative;
-    bottom: 950px;
-    left: 190px;
+    bottom: 650px;
+    left: 150px;
     line-height: 25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color:#7A746E;
+    font-size: 17px;
+    width: 50vw;
+    text-align: center;
+    
 }
 #amy_consult{
   width: 228px;
     position: relative;
-    bottom: 950px;
+    bottom: 650px;
     left: 160px;
 }
 
 #my_work{
 
     position: relative;
-    bottom: 900px;
+    bottom: 500px;
 }
 
 #image{
     width: 500px;
     height: 300px;
     position: relative;
-    bottom:900px;
+    bottom:450px;
 }
 
 #lr{
     position: relative;
-    bottom: 900px;
+    bottom: 400px;
 }
 
 #book{
     
-   
-    position: relative;
-    bottom: 850px;
+transform: translate(0%,-50%);
     width: 690px;
-    height: 352px;
+    height: 552px;
+}
+.book_red{
+    transform: translate(140%,-20%);
 }
 
 
+
+}
+
+
+@media screen and (min-width: 1440px){
+
+.consult{
+    margin-right: 10%;
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.main_title{
+    font-size: 58px;
+}
+
+#main_sub{
+    font-size: x-large;
+}
+
+#graphic{
+    
+position: relative;
+right: 570px;
+
+}
 
 
 }
