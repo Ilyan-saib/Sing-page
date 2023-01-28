@@ -63,11 +63,15 @@ body{
 
 
 .main_title{
-    padding-left: 30%;
-
-
+padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size:27px;    
+      
 }
 .title{
  font-family: 'Plus Jakarta Sans', sans-serif;
@@ -283,7 +287,12 @@ margin-left: 5%;
     align-items: center;
     width: 100vw;
 }
-
+#sub_amy{
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 20px ;
+    color: gray;
+    width: 50vw;
+}
 
 #image{
 
@@ -316,7 +325,7 @@ height: 200px;
 #book{
 
  
-margin-top: 10%;
+transform: translate(0px,50px);
 background-color: #030303;
 border-radius: 10px;
 width: 343px;
@@ -499,10 +508,26 @@ transform: translate(0%,-50%);
 
 @media screen and (min-width: 1440px){
 
+
+
 .consult{
     margin-right: 10%;
 }
 
+.consult:hover{
+    background: #755CDE;
+    border-color: #755CDE;
+}
+
+.consult_red:hover{
+    background: #F6A560;
+    border-color:#F6A560 ;
+}
+.book_red:hover{
+
+    background: #F6A560;
+    border-color:#F6A560 ;
+}
 .logo{
     margin-left: 10%;
 }
@@ -516,11 +541,92 @@ transform: translate(0%,-50%);
 }
 
 #graphic{
-    
+    cursor: pointer;
 position: relative;
-right: 570px;
+right: 390px;
 
+}
+#illustrations{
+   position: relative;
+   left: -30px;
+  cursor: pointer;
 }
 
 
+.uxui_container{
+    position: relative;
+    left: -30px;  
+    cursor: pointer;
+}
+
+#photography{
+    position: relative;
+    bottom: 625px;
+    left: 330px;
+    cursor: pointer;
+}
+
+#motion{
+    width: 354px;
+    height: 158px;
+    position: relative;
+    bottom: 620px;
+transform: translate(140px,0px);
+cursor: pointer;
+}
+
+#amy{
+    width: 445px;
+    height: 445px;
+    position: relative;
+    bottom: 500px;
+    left: -340px;
+}
+
+
+.amy_title{
+    transform: translate(0px,-300px);
+    width: 23vw;
+}
+#sub_amy{
+    transform: translate(0px,-300px);
+    width: 25vw;
+}
+
+
+#amy_consult{
+    transform: translate(-100px,-300px);
+}
+
+#my_work{
+font-size: 32px;
+transform: translate(0px,-100px);
+}
+
+
+#image{
+    transform: translate(0px,-100px);
+    width: 600px;
+    height: 400px;
+}
+
+#book{
+    width: 1200px;
+
+padding-bottom: 5%;
+
+
+}
+
+#title_txt{
+    font-size: 40px;
+    transform: translate(-350px);
+}
+.book_sub{
+    width: 30vw;
+    transform: translate(-70px,0px);
+}
+.book_red{
+    transform: translate(800px,-100px);
+}
 }
